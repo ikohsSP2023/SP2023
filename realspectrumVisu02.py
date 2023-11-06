@@ -1,9 +1,10 @@
 import sounddevice as sd
 import numpy as np
 
+import threading
+
 import matplotlib as mpl
 mpl.use('TkAgg')
-
 
 from matplotlib.animation import FuncAnimation
 import matplotlib.pyplot as plt
