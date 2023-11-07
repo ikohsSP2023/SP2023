@@ -10,6 +10,7 @@ import matplotlib as mpl
 mpl.use('TkAgg')
 
 import numpy as np
+from matplotlib.animation import FuncAnimation
 import matplotlib.pyplot as plt
 
 from world import main
